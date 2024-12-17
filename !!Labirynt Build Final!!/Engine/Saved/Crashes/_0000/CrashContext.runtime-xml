@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>1888BC0342E54F63E13ACB91DAAF4B92</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Internationalization\ICUInternationalization.cpp] [Line: 156] 
+ICU data directory was not discovered:
+../../../Engine/Content/Internationalization
+../../../Engine/Content/Internationalization
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-UnrealGame</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformFullName></PlatformFullName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion></EngineVersion>
+<EngineCompatibleVersion></EngineCompatibleVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion></BuildVersion>
+<Symbols></Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34132516864</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>45943676928</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>19267874816</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>26637156352</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>119205888</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>119205888</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>55996416</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>55996416</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+UnrealGame  0x00007ff718ca0000 + 12f6df9         
+UnrealGame  0x00007ff718ca0000 + 12bdb9a         
+UnrealGame  0x00007ff718ca0000 + 12e630c         
+UnrealGame  0x00007ff718ca0000 + 134da33         
+UnrealGame  0x00007ff718ca0000 + 8b3163c         
+UnrealGame  0x00007ff718ca0000 + 8b4788a         
+UnrealGame  0x00007ff718ca0000 + 8b3c8e2         
+UnrealGame  0x00007ff718ca0000 + 8b3cb8a         
+UnrealGame  0x00007ff718ca0000 + 8b3f755         
+UnrealGame  0x00007ff718ca0000 + 8b4fa34         
+UnrealGame  0x00007ff718ca0000 + c8bc26a         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</PCallStack>
+<PCallStackHash>7028AA886DFF87016C5CC4437D8A7D12F8C11BED</PCallStackHash>
+<Threads><Thread><CallStack>ntdll         0x00007ffae0c90000 + a0424           
+KERNELBASE    0x00007ffade280000 + 39cee           
+UnrealGame    0x00007ff718ca0000 + 16b9cdd         
+UnrealGame    0x00007ff718ca0000 + c934c7e         
+VCRUNTIME140  0x00007ffab7ee0000 + e5cf            
+ntdll         0x00007ffae0c90000 + a543f           
+ntdll         0x00007ffae0c90000 + 1e886           
+ntdll         0x00007ffae0c90000 + 54955           
+KERNELBASE    0x00007ffade280000 + 5fb4c           
+UnrealGame    0x00007ff718ca0000 + 16bddac         
+UnrealGame    0x00007ff718ca0000 + 1502fdf         
+UnrealGame    0x00007ff718ca0000 + 13cbaed         
+UnrealGame    0x00007ff718ca0000 + 12f6df9         
+UnrealGame    0x00007ff718ca0000 + 12bdb9a         
+UnrealGame    0x00007ff718ca0000 + 12e630c         
+UnrealGame    0x00007ff718ca0000 + 134da33         
+UnrealGame    0x00007ff718ca0000 + 8b3163c         
+UnrealGame    0x00007ff718ca0000 + 8b4788a         
+UnrealGame    0x00007ff718ca0000 + 8b3c8e2         
+UnrealGame    0x00007ff718ca0000 + 8b3cb8a         
+UnrealGame    0x00007ff718ca0000 + 8b3f755         
+UnrealGame    0x00007ff718ca0000 + 8b4fa34         
+UnrealGame    0x00007ff718ca0000 + c8bc26a         
+KERNEL32      0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>8088</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20760</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23664</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24980</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18208</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14672</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 111a8e3         
+UnrealGame  0x00007ff718ca0000 + 114c606         
+UnrealGame  0x00007ff718ca0000 + 11168e0         
+UnrealGame  0x00007ff718ca0000 + 130d243         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15896</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 130ce55         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4696</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0424           
+KERNELBASE  0x00007ffade280000 + 39cee           
+UnrealGame  0x00007ff718ca0000 + 1792d79         
+UnrealGame  0x00007ff718ca0000 + 130ce55         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32404</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ffae0c90000 + a0a24           
+ntdll       0x00007ffae0c90000 + 55693           
+KERNELBASE  0x00007ffade280000 + 4a3cd           
+UnrealGame  0x00007ff718ca0000 + 130d198         
+UnrealGame  0x00007ff718ca0000 + 1734968         
+UnrealGame  0x00007ff718ca0000 + 17284b7         
+KERNEL32    0x00007ffadedc0000 + 1259d           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14052</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
